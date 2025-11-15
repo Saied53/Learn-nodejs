@@ -12,5 +12,7 @@
 // console.log(__dirname);
 
 const path = require('path')
-console.log(path)
+
+const extensionName = path.extname("index.html")
+console.log(extensionName)
 
